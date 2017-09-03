@@ -1,0 +1,51 @@
+.woocommerce-products-wizard-widget {
+    &-item {
+        &-thumbnail {
+            width: 70px;
+
+            &-wrapper {
+                width: 1%;
+                text-align: center;
+            }
+        }
+
+        &-title {
+            display: block;
+            margin-bottom: $line-height-computed / 2;
+        }
+
+        &-remove {
+            margin-top: $line-height-computed / 2;
+        }
+
+        .variation {
+            margin-bottom: $line-height-computed / 2;
+            font-size: $font-size-small;
+            line-height: $line-height-small;
+
+            dt {
+                float: left;
+                clear: left;
+                margin-right: 1em;
+            }
+
+            dd {
+                text-align: right;
+
+                &:after {
+                    content: "";
+                    display: block;
+                    clear: both;
+                }
+
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    &-footer {
+        text-align: right;
+    }
+}

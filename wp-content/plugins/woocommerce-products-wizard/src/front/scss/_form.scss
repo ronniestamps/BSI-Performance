@@ -1,0 +1,33 @@
+.woocommerce-products-wizard-form {
+    &-item {
+        &-type-1 {
+            @include woocommerce-products-wizard-form-item-prototype();
+
+            &-thumbnail {
+                &.thumbnail {
+                    @at-root figure#{&} {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            &-body {
+                &:empty {
+                    display: none;
+                }
+            }
+        }
+
+        &-type-2 {
+            @include woocommerce-products-wizard-form-item-prototype();
+        }
+
+        &-type-3 {
+            @include woocommerce-products-wizard-form-item-prototype();
+        }
+
+        &-type-4 {
+            @include woocommerce-products-wizard-form-item-prototype();
+        }
+    }
+}

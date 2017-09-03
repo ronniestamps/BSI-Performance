@@ -1,0 +1,240 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-product-wizard\n"
+"POT-Creation-Date: 2016-07-20 20:39+0300\n"
+"PO-Revision-Date: 2016-07-20 20:44+0300\n"
+"Last-Translator: troll_winner <troll_winner@mail.ru>\n"
+"Language-Team: troll_winner <troll_winner@mail.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../../../troll-winner.ru/public_html/products-"
+"wizard/wp-content/plugins/woocommerce-products-wizard\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/WCProductsWizardAdmin.php:52
+msgid "This is where you can add new products wizard items."
+msgstr "Здесь вы можете создать нового помощника по товарам."
+
+#: includes/admin/WCProductsWizardAdmin.php:157
+msgid "Products Wizard"
+msgstr "Помощник по товарам"
+
+#: includes/admin/WCProductsWizardAdmin.php:165
+msgid "Options"
+msgstr "Настройки"
+
+#: includes/admin/WCProductsWizardAdmin.php:185
+#: includes/admin/WCProductsWizardAdmin.php:822
+msgid "Dependencies"
+msgstr "Зависимости"
+
+#: includes/admin/WCProductsWizardAdmin.php:214
+#: includes/admin/WCProductsWizardAdmin.php:238
+#: includes/admin/WCProductsWizardAdmin.php:851
+#: includes/admin/WCProductsWizardAdmin.php:877
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:255
+#: includes/admin/WCProductsWizardAdmin.php:734
+msgid "Variation template"
+msgstr "Шаблон вывода вариаций"
+
+#: includes/admin/WCProductsWizardAdmin.php:327
+#: includes/frontend/WCProductsWizard.php:580
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: includes/admin/WCProductsWizardAdmin.php:330
+#: includes/frontend/WCProductsWizard.php:590
+msgid "Total"
+msgstr "Итог"
+
+#: includes/admin/WCProductsWizardAdmin.php:365
+msgid "Using"
+msgstr "Использование"
+
+#: includes/admin/WCProductsWizardAdmin.php:379
+msgid "Select and add categories"
+msgstr "Выберите и добавьте категории"
+
+#: includes/admin/WCProductsWizardAdmin.php:433
+#: includes/admin/WCProductsWizardAdmin.php:456
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/admin/WCProductsWizardAdmin.php:471
+msgid "Description tab title"
+msgstr "Заголовок кладки описания"
+
+#: includes/admin/WCProductsWizardAdmin.php:486
+msgid "Last tab title"
+msgstr "Заголовок последней вкладки"
+
+#: includes/admin/WCProductsWizardAdmin.php:500
+#: includes/admin/WCProductsWizardAdmin.php:683
+msgid "Description position"
+msgstr "Позиция описания"
+
+#: includes/admin/WCProductsWizardAdmin.php:509
+#: includes/admin/WCProductsWizardAdmin.php:693
+msgid "Top"
+msgstr "Вверху"
+
+#: includes/admin/WCProductsWizardAdmin.php:514
+#: includes/admin/WCProductsWizardAdmin.php:696
+msgid "Bottom"
+msgstr "Внизу"
+
+#: includes/admin/WCProductsWizardAdmin.php:522
+#: includes/admin/WCProductsWizardAdmin.php:716
+msgid "Template"
+msgstr "Шаблон"
+
+#: includes/admin/WCProductsWizardAdmin.php:649
+msgid "Can add several products from a term"
+msgstr "Можно добавить несколько товаров из одной категории"
+
+#: includes/admin/WCProductsWizardAdmin.php:666
+msgid "Sold individually"
+msgstr "Продавать индивидуально"
+
+#: includes/admin/WCProductsWizardAdmin.php:690
+msgid "Default"
+msgstr "По-умолчанию"
+
+#: includes/admin/WCProductsWizardAdmin.php:704
+msgid "Description"
+msgstr "Описание"
+
+#: includes/admin/WCProductsWizardAdmin.php:758
+msgid "Minimum items to add"
+msgstr "Минимум товаров для добавления"
+
+#: includes/admin/WCProductsWizardAdmin.php:773
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/admin/WCProductsWizardAdmin.php:947
+msgid "Include full styles file"
+msgstr "Подключить полный файл стилей css"
+
+#: views/controls/add-to-cart.php:24
+msgid "Add to cart"
+msgstr "Добавить в корзину"
+
+#: views/controls/back.php:35
+msgid "Back"
+msgstr "Назад"
+
+#: views/controls/next.php:19
+msgid "Next"
+msgstr "Далее"
+
+#: views/controls/reset.php:25
+msgid "Reset"
+msgstr "Сбросить"
+
+#: views/controls/skip.php:19
+msgid "Skip"
+msgstr "Пропустить"
+
+#: views/controls/start.php:26
+msgid "Start"
+msgstr "Начать"
+
+#: views/controls/to-results.php:27
+msgid "To results"
+msgstr "К результатам"
+
+#: views/form/item/prototype/thumbnail.php:28
+msgid "Placeholder"
+msgstr ""
+
+#: views/form/item/prototype/variations/attributes/item/select.php:26
+msgid "Choose an option"
+msgstr ""
+
+#: views/messages/cart-is-empty.php:7
+msgid "Your cart is empty"
+msgstr "Ваша корзина пуста"
+
+#: views/messages/js.php:28 views/messages/minimum-items-required.php:26
+msgid "Minimum selected items are required"
+msgstr "Требуется минимум выбранных товаров"
+
+#: views/messages/js.php:34
+msgid "Not all options are selected"
+msgstr "Не все параметры выбраны"
+
+#: views/messages/nothing-found.php:7
+msgid "No results for your choice"
+msgstr "Нет результатов по вашему запросу"
+
+#: views/result.php:88
+msgid "Available on backorder"
+msgstr ""
+
+#: views/result.php:103 views/widget.php:86
+msgid "Subtotal"
+msgstr "Итого"
+
+#~ msgid "Enable in the wizard"
+#~ msgstr "Включить в помощнике"
+
+#~ msgid "Can add several products from a term in the wizard"
+#~ msgstr "Возможность выбора нескольких товаров категории в помощнике"
+
+#~ msgid "Sold individually in the wizard"
+#~ msgstr "Продавать в единственном экземпляре в помощнике"
+
+#~ msgid "Order in the wizard"
+#~ msgstr "Порядок в помощнике"
+
+#~ msgid "Terms group in the wizard"
+#~ msgstr "Группа категорий в помощнике"
+
+#~ msgid "unique key (use in shortcode as group=key)"
+#~ msgstr "уникальный ключ (используется в шоткоде как group=key)"
+
+#~ msgid "Description position in the wizard"
+#~ msgstr "Позиция описания в помощнике"
+
+#~ msgid "Description in the wizard"
+#~ msgstr "Описание в помощнике"
+
+#~ msgid "Template in the wizard"
+#~ msgstr "Шаблон в помощнике"
+
+#~ msgid "Enable description tab"
+#~ msgstr "Включить вкладку описания"
+
+#~ msgid "Term description placement"
+#~ msgstr "Позиция описания"
+
+#~ msgid "Enable next-button"
+#~ msgstr "Включить кнопку \"Далее\""
+
+#~ msgid "Enable to-results-button"
+#~ msgstr "Включить кнопку \"К результатам\""
+
+#~ msgid "Enable skip-button"
+#~ msgstr "Включить кнопку пропуска"
+
+#~ msgid "Enable back-button"
+#~ msgstr "Включить кнопку \"Назад\""
+
+#~ msgid "Enable reset-button"
+#~ msgstr "Включить кнопку \"Сбросить\""
+
+#~ msgid "Description tab text"
+#~ msgstr "Текст вкладки описания"
+
+#~ msgid "Variation view"
+#~ msgstr "Шаблон вывода вариаций"

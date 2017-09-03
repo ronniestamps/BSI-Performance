@@ -1,0 +1,101 @@
+.woocommerce-products-wizard-results {
+    &.table {
+        td {
+            vertical-align: middle;
+        }
+    }
+
+    &-header {
+        th {
+            &:last-child {
+                text-align: center;
+            }
+        }
+    }
+
+    &-item {
+        &-remove {
+            float: none !important;
+
+            &-wrapper {
+                width: 1%;
+
+                @media (min-width: $grid-float-breakpoint) {
+                    text-align: center;
+                }
+            }
+        }
+
+        &-thumbnail {
+            display: inline-block;
+            width: 150px;
+            max-width: 100%;
+            vertical-align: middle;
+
+            &-wrapper {
+                width: 1%;
+            }
+        }
+
+        &-title {
+            font-size: $font-size-large;
+            line-height: $line-height-large;
+
+            @media (min-width: $grid-float-breakpoint) {
+                display: block;
+            }
+        }
+
+        &-data {
+            margin-top: $line-height-computed;
+        }
+
+        &-remove {
+            &-wrapper {
+                vertical-align: middle !important;
+            }
+        }
+
+        &-price {
+            @media (min-width: $grid-float-breakpoint) {
+                display: block;
+                text-align: center;
+            }
+
+            &-wrapper {
+                width: 20%;
+                vertical-align: middle !important;
+            }
+        }
+
+        .variation {
+            margin-bottom: 0;
+
+            dt {
+                float: left;
+                clear: left;
+                margin-right: 1em;
+            }
+
+            dd {
+                margin-bottom: 1em;
+                border-bottom: 1px dotted $gray-light;
+                text-align: right;
+
+                &:after {
+                    content: "";
+                    display: block;
+                    clear: both;
+                }
+
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    &-footer {
+        text-align: right;
+    }
+}

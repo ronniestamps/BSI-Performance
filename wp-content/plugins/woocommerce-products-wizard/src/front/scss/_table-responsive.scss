@@ -1,0 +1,35 @@
+.woocommerce-products-wizard {
+    .table-responsive {
+        @media (max-width: $grid-float-breakpoint-max) {
+            thead,
+            th {
+                display: none;
+            }
+
+            td {
+                display: block;
+                border-right: 0 !important;
+                border-bottom: 0 !important;
+                border-left: 0 !important;
+                padding-top: $padding-base-vertical !important;
+                width: auto;
+                text-align: right;
+                white-space: normal !important;
+
+                &::before {
+                    float: left;
+                    max-width: 50%;
+                    text-align: left;
+                    font-weight: 700;
+                    content: attr(data-th);
+                }
+
+                &::after {
+                    display: block;
+                    clear: both;
+                    content: "";
+                }
+            }
+        }
+    }
+}

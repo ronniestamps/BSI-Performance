@@ -1,0 +1,6 @@
+#TB_ajaxContent {
+  min-width: 100%;
+  min-height: -webkit-calc(100% - 30px);
+  min-height: calc(100% - 30px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }

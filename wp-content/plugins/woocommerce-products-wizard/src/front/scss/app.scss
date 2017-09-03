@@ -1,0 +1,50 @@
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "mixins";
+@import "animate";
+@import "form";
+@import "table-responsive";
+@import "results";
+@import "widget";
+
+.woocommerce-products-wizard {
+    margin-bottom: $line-height-computed;
+
+    &.loading {
+        position: relative;
+        opacity: .6;
+
+        &:after {
+            content: "";
+
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            background: url(../images/spinner.svg) no-repeat center fixed;
+        }
+    }
+
+    &-header {
+        margin: $line-height-computed 0;
+        text-align: right;
+    }
+
+    &-footer {
+        margin-top: $line-height-computed;
+        text-align: right;
+    }
+
+    &-sidebar {
+        &[class*="col-"] {
+            position: static !important;
+        }
+    }
+
+    &-start-description {
+        margin-bottom: $line-height-computed;
+    }
+}

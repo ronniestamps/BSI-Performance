@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Woocommerce Products Wizard</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">
+			&ldquo;Woocommerce Products Wizard&rdquo; Documentation by &ldquo;troll_winner&rdquo; v2.0.0
+		</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Woocommerce Products Wizard&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 08/07/2015<br>
+					By: troll_winner<br>
+					Email: <a href="mailto:troll_winner@mail.ru">troll_winner@mail.ru</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my plugin. If you have any questions that are beyond the scope of this help file, please feel free to email <a href="mailto:troll_winner@mail.ru">troll_winner@mail.ru</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+
+		<hr>
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#about">About</a></li>
+			<li><a href="#main-settings">Main settings</a></li>
+			<li><a href="#post-settings">Post Settings</a></li>
+			<li><a href="#product-settings">Product Settings</a></li>
+			<li><a href="#call-form">Call form</a></li>
+		</ol>
+
+		<hr>
+
+		<h3 id="about"><strong>A) About</strong> - <a href="#toc">top</a></h3>
+		<p>
+            The main task of this plugin is created form, which step by step helps customers to choose a kit from all products and categories, while your products have specific features. For example, if you sell bicycle details some of them from category "frame" do not combine with some details of category "wheels". So after the customer has chosen some appropriate frame you can make some products of category "wheels" unavailable to choose on the second step. In the end customer get your own kit of products, which meets some technical or other requirements.
+        </p>
+
+		<img src="assets/images/about.jpg" alt="Exaple" />
+
+		<hr>
+
+		<h3 id="main-settings"><strong>B) Main Settings</strong> - <a href="#toc">top</a></h3>
+
+		<p>
+			"Include full styles file" - enable it if your theme doesn't based on the bootstrap 3 framework.
+			It will include some base required css for a right view.
+		</p>
+
+        <img src="assets/images/woocommerce-options-page.png" alt="woocommerce-options-page" />
+
+		<hr>
+		
+		<h3 id="post-settings"><strong>C) Post Settings</strong> - <a href="#toc">top</a></h3>
+		
+        <img src="assets/images/wizard-post-admin.png" alt="post-settings" />
+
+		<p>
+			Use post content as a description of the first tab.
+		</p>
+
+		<p>
+			The "Description tab title" setting sets the description tabs nav item text.
+		</p>
+
+		<p>
+			The "Last tab title" setting sets the last tabs nav item text.
+		</p>
+
+		<p>
+			The "Description position" setting change category description position globally.
+		</p>
+
+		<p>
+			The "Template" setting change category template globally.
+		</p>
+
+		<p>
+			The "Enable description tab" setting enables/disable the first tab with description text.
+		</p>
+
+		<p>
+			The "Enable next-button" setting enables/disable the submit button in the controls.
+		</p>
+
+		<p>
+			The "Enable to-results-button" setting enables/disable the button which allows to skip all steps from the active.
+		</p>
+
+		<p>
+			The "Enable skip-button" setting enables/disable the button which allows to skip the active step.
+		</p>
+
+		<p>
+			The "Enable back-button" setting enables/disable the button which allows to move backward from the active step.
+		</p>
+
+		<p>
+			The "Enable reset-button" setting enables/disable the button which allows clear current cart and move to the first tab.
+		</p>
+
+        <p>
+			Select and add product categories you need and change its settings.
+		</p>
+
+		<img src="assets/images/term-settings-modal.png" alt="term-settings-modal" />
+
+		<p>
+			The "Can add several products from a term" setting allows users to add
+			more than one product of single term.
+		</p>
+
+		<p>
+			The "Sold individually" setting enables/disable product quantity input.
+		</p>
+
+        <p>
+			The "Description position" setting change description text position.
+		</p>
+
+        <p>
+			The "Description" setting helps add the text on the current tab.
+		</p>
+
+        <p>
+			The "Template" setting change layout of products in current tab.
+			The list is formed of the php-files in the
+			"plugin directory/views/form" and
+			"theme directory/woocommerce-products-wizard/form" folders.
+		</p>
+
+        <p>The "Variation template" setting change the layout of the variable products options list.</p>
+
+		<p>
+			The "Minimum items to add" setting indicates how many products must be selected to move on the next step.
+		</p>
+
+		<hr>
+		
+		<h3 id="product-settings"><strong>D) Product Settings</strong> - <a href="#toc">top</a></h3>
+
+        <img src="assets/images/product-settings.jpg" alt="category-settings" />
+
+        <p>
+            By dependencies form you can set the product dependencies from the other products or product variations.
+			Each new line of the form is mean "OR" dependency.
+        </p>
+
+        <p>
+            Two or more dependencies on the one line are meant "AND" dependency.
+			This is means the product will be available if all of these products have been chosen earlier.
+        </p>
+
+        <p>
+            The "variation view" setting change layout of the variable product options list above category settings.
+        </p>
+
+        <p>
+            You can also set dependencies of the each variation of a variable product.
+        </p>
+		
+		<hr>
+
+        <h3 id="call-form"><strong>E) Call form</strong> - <a href="#toc">top</a></h3>
+
+        <p>
+			To call the wizard use [woocommerce-products-wizard] shortcode with the id attribute in the page content.
+			You can find it on the wizard edit page on the string "Using".
+		</p>
+
+		<p>
+			Also you can use the "WCProdWiz()->getTemplatePart('app', ['id' => %POST_ID%]);" string in the php-file.
+		</p>
+
+        <p>You can send the attributes as string in the shortcode or as an associative array in the method arguments.</p>
+
+        <p>Shortcode example: "[woocommerce-products-wizard id='13']".</p>
+
+        <p>Class usage example: "WCProdWiz()->getTemplatePart('app', ['id' => 13])".</p>
+
+		<p class="append-bottom alt large"><strong>troll_winner</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

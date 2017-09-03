@@ -1,0 +1,145 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce Products Wizard\n"
+"POT-Creation-Date: 2017-05-11 09:01+0300\n"
+"PO-Revision-Date: 2017-05-11 09:00+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-products-wizard.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/WCProductsWizard.php:1149
+msgid "Welcome"
+msgstr ""
+
+#: includes/WCProductsWizard.php:1160
+msgid "Total"
+msgstr ""
+
+#: includes/WCProductsWizardAdmin.php:79
+msgid "This is where you can add new products wizard items."
+msgstr ""
+
+#: includes/WCProductsWizardAdmin.php:220
+msgid "Products Wizard"
+msgstr ""
+
+#: includes/WCProductsWizardAdmin.php:228
+msgid "Options"
+msgstr ""
+
+#: includes/WCProductsWizardAdmin.php:249
+#: includes/WCProductsWizardAdmin.php:677
+msgid "Dependencies"
+msgstr ""
+
+#: includes/WCProductsWizardAdmin.php:317
+#: includes/WCProductsWizardAdmin.php:327
+#: includes/WCProductsWizardAdmin.php:726
+#: includes/WCProductsWizardAdmin.php:734
+#: includes/WCProductsWizardAdmin.php:1023
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/WCProductsWizardAdmin.php:343
+msgid "Variation template"
+msgstr ""
+
+#: includes/WCProductsWizardAdmin.php:420
+msgid "Using"
+msgstr ""
+
+#: includes/WCProductsWizardAdmin.php:434
+msgid "Select and add categories"
+msgstr ""
+
+#: includes/WCProductsWizardAdmin.php:486
+#: includes/WCProductsWizardAdmin.php:509
+msgid "Settings"
+msgstr ""
+
+#: includes/WCProductsWizardAdmin.php:614
+msgid "Save"
+msgstr ""
+
+#: includes/WCProductsWizardAdmin.php:810
+msgid "Include full styles file"
+msgstr ""
+
+#: views/form/item/prototype/add-to-cart.php:42 views/result.php:36
+#: views/widget.php:78
+msgid "Remove"
+msgstr ""
+
+#: views/form/item/prototype/add-to-cart.php:49
+msgid "Add to cart"
+msgstr ""
+
+#: views/form/item/prototype/thumbnail.php:34
+msgid "Placeholder"
+msgstr ""
+
+#: views/form/item/prototype/variations/attributes/item/select.php:34
+msgid "Choose an option"
+msgstr ""
+
+#: views/messages/cart-is-empty.php:7
+msgid "Your cart is empty"
+msgstr ""
+
+#: views/messages/js.php:27 views/messages/minimum-items-required.php:26
+msgid "Minimum selected items are required"
+msgstr ""
+
+#: views/messages/js.php:33
+msgid "Not all options are selected"
+msgstr ""
+
+#: views/messages/nothing-found.php:7
+msgid "No results for your choice"
+msgstr ""
+
+#: views/result.php:40
+msgid "Thumbnail"
+msgstr ""
+
+#: views/result.php:41
+msgid "Data"
+msgstr ""
+
+#: views/result.php:42
+msgid "Price"
+msgstr ""
+
+#: views/result.php:126
+msgid "Available on backorder"
+msgstr ""
+
+#: views/result.php:146 views/widget.php:114
+msgid "Subtotal"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Products Wizard"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin helps you sell your products by the step-by-step wizard."
+msgstr ""
+
+#. Author of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "troll_winner@mail.ru"
+msgstr ""

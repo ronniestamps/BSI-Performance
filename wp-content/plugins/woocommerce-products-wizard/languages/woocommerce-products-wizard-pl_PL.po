@@ -1,0 +1,228 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-product-wizard\n"
+"POT-Creation-Date: 2016-07-27 21:01+0300\n"
+"PO-Revision-Date: 2016-07-27 21:02+0300\n"
+"Last-Translator: troll_winner <troll_winner@mail.ru>\n"
+"Language-Team: troll_winner <troll_winner@mail.ru>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/WCProductsWizardAdmin.php:52
+msgid "This is where you can add new products wizard items."
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:157
+msgid "Products Wizard"
+msgstr "Products Wizard - Kreator"
+
+#: includes/admin/WCProductsWizardAdmin.php:165
+msgid "Options"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:185
+#: includes/admin/WCProductsWizardAdmin.php:822
+msgid "Dependencies"
+msgstr "Zależności"
+
+#: includes/admin/WCProductsWizardAdmin.php:214
+#: includes/admin/WCProductsWizardAdmin.php:238
+#: includes/admin/WCProductsWizardAdmin.php:851
+#: includes/admin/WCProductsWizardAdmin.php:877
+msgid "Search for a product&hellip;"
+msgstr "Wyszukaj produkt &hellip;"
+
+#: includes/admin/WCProductsWizardAdmin.php:255
+#: includes/admin/WCProductsWizardAdmin.php:734
+msgid "Variation template"
+msgstr "Szablon dla wariacji"
+
+#: includes/admin/WCProductsWizardAdmin.php:327
+#: includes/frontend/WCProductsWizard.php:580
+msgid "Welcome"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:330
+#: includes/frontend/WCProductsWizard.php:590
+msgid "Total"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:365
+msgid "Using"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:379
+msgid "Select and add categories"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:433
+#: includes/admin/WCProductsWizardAdmin.php:456
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:471
+msgid "Description tab title"
+msgstr "Tytuł zakładki z opisem (występuje w Kreatorze jako pierwsza)"
+
+#: includes/admin/WCProductsWizardAdmin.php:486
+msgid "Last tab title"
+msgstr "Tytuł ostatniej zakładki"
+
+#: includes/admin/WCProductsWizardAdmin.php:500
+#: includes/admin/WCProductsWizardAdmin.php:683
+msgid "Description position"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:509
+#: includes/admin/WCProductsWizardAdmin.php:693
+msgid "Top"
+msgstr "Góra"
+
+#: includes/admin/WCProductsWizardAdmin.php:514
+#: includes/admin/WCProductsWizardAdmin.php:696
+msgid "Bottom"
+msgstr "Dół"
+
+#: includes/admin/WCProductsWizardAdmin.php:522
+#: includes/admin/WCProductsWizardAdmin.php:716
+msgid "Template"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:649
+msgid "Can add several products from a term"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:666
+msgid "Sold individually"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:690
+msgid "Default"
+msgstr "Domyślny"
+
+#: includes/admin/WCProductsWizardAdmin.php:704
+msgid "Description"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:758
+msgid "Minimum items to add"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:773
+msgid "Save"
+msgstr ""
+
+#: includes/admin/WCProductsWizardAdmin.php:947
+msgid "Include full styles file"
+msgstr ""
+
+#: views/controls/add-to-cart.php:24
+msgid "Add to cart"
+msgstr "Dodaj do koszyka"
+
+#: views/controls/back.php:35
+msgid "Back"
+msgstr ""
+
+#: views/controls/next.php:19
+msgid "Next"
+msgstr "Dalej"
+
+#: views/controls/reset.php:25
+msgid "Reset"
+msgstr ""
+
+#: views/controls/skip.php:19
+msgid "Skip"
+msgstr "Pomiń"
+
+#: views/controls/start.php:26
+msgid "Start"
+msgstr "Rozpocznij"
+
+#: views/controls/to-results.php:27
+msgid "To results"
+msgstr "Podsumowanie"
+
+#: views/form/item/prototype/thumbnail.php:28
+msgid "Placeholder"
+msgstr "Wypełniacz"
+
+#: views/form/item/prototype/variations/attributes/item/select.php:26
+msgid "Choose an option"
+msgstr "Wybierz opcje"
+
+#: views/messages/cart-is-empty.php:7
+msgid "Your cart is empty"
+msgstr "Twój koszyk jest pusty"
+
+#: views/messages/js.php:28 views/messages/minimum-items-required.php:26
+msgid "Minimum selected items are required"
+msgstr ""
+
+#: views/messages/js.php:34
+msgid "Not all options are selected"
+msgstr ""
+
+#: views/messages/nothing-found.php:7
+msgid "No results for your choice"
+msgstr "Nic nie znaleziono"
+
+#: views/result.php:88
+msgid "Available on backorder"
+msgstr "Dostępne na zamówienie"
+
+#: views/result.php:103 views/widget.php:86
+msgid "Subtotal"
+msgstr "Ogólna kwota"
+
+#~ msgid "Enable in the wizard"
+#~ msgstr "Widoczny dla Kreatora"
+
+#~ msgid "Can add several products from a term in the wizard"
+#~ msgstr "Pozwalaj na dodawanie kilku produktów w obrębie tej samej kategorii"
+
+#~ msgid "Sold individually in the wizard"
+#~ msgstr "Zablokuj mnożnik ilości"
+
+#~ msgid "Order in the wizard"
+#~ msgstr "Kolejność w Kreatorze [zakładki]"
+
+# The "Terms group in the wizard" setting helps you to create wizard of only several categories (for example "child clothes"). Usage in shortcode is "[woocommerce-products-wizard group='child clothes']".
+#~ msgid "Terms group in the wizard"
+#~ msgstr "Nadaj unikatową nazwę dla grupy [aby móc budować osobne Kreatory]"
+
+#~ msgid "unique key (use in shortcode as group=key)"
+#~ msgstr "unikatowy klucz (Użyj w shortcode jako grupa=klucz)"
+
+#~ msgid "Description position in the wizard"
+#~ msgstr "Pozycja opisu w Kreatorze"
+
+#~ msgid "Description in the wizard"
+#~ msgstr "Opis w Kreatorze"
+
+#~ msgid "Template in the wizard"
+#~ msgstr "Wygląd w Kreatorze"
+
+#~ msgid "Enable description tab"
+#~ msgstr "Włącz zakładkę z opisem"
+
+#~ msgid "Term description placement"
+#~ msgstr "Gdzie umieszczać opis?"
+
+#~ msgid "Enable skip-button"
+#~ msgstr "Włącz przycisk \"pomiń\""
+
+#~ msgid "Description tab text"
+#~ msgstr "Wprowadź tekst dla zakładki z opisem"
+
+#~ msgid "Variation view"
+#~ msgstr "Wyświetlanie wariacji"
